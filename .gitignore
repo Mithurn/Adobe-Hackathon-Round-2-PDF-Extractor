@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output and input folders
+round_1a/output/
+round_1a/output demo adobe/
+round_1a/input/
+round_1a/adobe demo files/
+
+# PDF and test artifacts
+round_1a/*.pdf
+round_1a/*.zip
+round_1a/*.json
+
+# Git internals in subfolders
+round_1a/.git/
+
+# Vercel and deployment configs
+round_1a/vercel.json
+
+# Ignore outputs in round-1b if present
+round-1b/output/
+round-1b/test_output/
+
+# Ignore data and test input in round-1b
+round-1b/data/
+round-1b/test_input/
+
+# Ignore any .DS_Store or similar in all subfolders
+**/.DS_Store
