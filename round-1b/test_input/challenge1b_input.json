@@ -1,0 +1,15 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_002",
+    "test_case_name": "travel_planner",
+    "description": "France Travel"
+  },
+  "documents": [
+    {"filename": "South_of_France_Cities.pdf", "title": "South of France - Cities"},
+    {"filename": "South_of_France_Cuisine.pdf", "title": "South of France - Cuisine"},
+    {"filename": "South_of_France_History.pdf", "title": "South of France - History"}
+  ],
+  "persona": {"role": "Travel Planner"},
+  "job_to_be_done": {"task": "Plan a 4-day trip for 10 college friends to South of France"}
+}
+

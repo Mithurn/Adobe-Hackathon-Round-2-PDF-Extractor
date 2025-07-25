@@ -1,0 +1,23 @@
+{
+  "challenge_info": {
+    "challenge_id": "test_case_001",
+    "test_case_name": "dummy_test",
+    "description": "Test with dummy PDFs"
+  },
+  "documents": [
+    {
+      "filename": "sample_doc1.pdf",
+      "title": "Introduction to AI"
+    },
+    {
+      "filename": "sample_doc2.pdf",
+      "title": "Organic Chemistry"
+    }
+  ],
+  "persona": {
+    "role": "Student"
+  },
+  "job_to_be_done": {
+    "task": "Understand key concepts in AI and Organic Chemistry"
+  }
+}

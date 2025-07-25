@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South_of_France_Cities.pdf",
+      "South_of_France_Cuisine.pdf",
+      "South_of_France_History.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a 4-day trip for 10 college friends to South of France",
+    "processing_timestamp": "2025-07-25T09:46:24.207157"
+  },
+  "extracted_sections": [
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "section_title": "WINE REGIONS AND PAIRINGS",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "section_title": "BOUILLABAISSE: THE SIGNATURE DISH",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cities.pdf",
+      "section_title": "CANNES: FESTIVAL CITY",
+      "importance_rank": 3,
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "section_title": "EXPLORING PROVENCAL CUISINE",
+      "importance_rank": 4,
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "section_title": "ROMAN HERITAGE IN NIMES",
+      "importance_rank": 5,
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cities.pdf",
+      "section_title": "MARSEILLE: CULTURAL CAPITAL",
+      "importance_rank": 6,
+      "page_number": 2
+    },
+    {
+      "document": "South_of_France_Cities.pdf",
+      "section_title": "COMPREHENSIVE GUIDE TO MAJOR CITIES IN THE SOUTH OF FRANCE",
+      "importance_rank": 7,
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "section_title": "RATATOUILLE AND REGIONAL SPECIALTIES",
+      "importance_rank": 8,
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "section_title": "HISTORICAL LANDMARKS OF AVIGNON",
+      "importance_rank": 9,
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "section_title": "MEDIEVAL VILLAGES AND FORTIFICATIONS",
+      "importance_rank": 10,
+      "page_number": 2
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "section_title": "PALAIS DES PAPES: UNESCO WORLD HERITAGE SITE",
+      "importance_rank": 11,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "refined_text": "The South of France produces excellent ros\u00e9 wines, perfect for the Mediterranean climate.",
+      "page_number": 2
+    },
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "refined_text": "This traditional fish stew originated in Marseille and is a must-try for visitors.",
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cities.pdf",
+      "refined_text": "Famous for its international film festival, Cannes is a glamorous destination.",
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "refined_text": "The cuisine of Southern France is characterized by fresh ingredients and Mediterranean flavors.",
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "refined_text": "The Arena of N\u00eemes is one of the best-preserved Roman amphitheaters in the world.",
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cities.pdf",
+      "refined_text": "As the oldest city in France, Marseille offers rich history and culture.",
+      "page_number": 2
+    },
+    {
+      "document": "South_of_France_Cities.pdf",
+      "refined_text": "Nice: The Pearl of the French Riviera Nice is the capital of the Alpes-Maritimes department and the second-largest French city on the Mediterranean coast.",
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_Cuisine.pdf",
+      "refined_text": "This vegetable stew represents the essence of Provencal cooking.",
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "refined_text": "Avignon served as the seat of the Catholic Church in the 14th century.",
+      "page_number": 1
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "refined_text": "The region is dotted with hilltop villages that date back to medieval times.",
+      "page_number": 2
+    },
+    {
+      "document": "South_of_France_History.pdf",
+      "refined_text": "This Gothic palace is one of the largest and most important medieval buildings in Europe.",
+      "page_number": 1
+    }
+  ]
+}

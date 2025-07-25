@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Soups and Salads_1.pdf",
+      "Dinner Ideas - Soups and Salads_2.pdf",
+      "Dessert Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare vegetarian buffet-style dinner menu for corporate gathering, including gluten-free and vegan options.",
+    "processing_timestamp": "2025-07-10T15:40:14.642583"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "Falafel",
+      "importance_rank": 1,
+      "page_number": 7
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "Ratatouille",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Soups and Salads_1.pdf",
+      "section_title": "Lentil Soup",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Vegetable Tagine",
+      "importance_rank": 4,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Mushroom Risotto",
+      "importance_rank": 5,
+      "page_number": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Crispy falafel made from ground chickpeas and herbs, served with a tahini-yogurt sauce. Ensure a gluten-free recipe by using chickpea flour and frying in fresh oil.",
+      "page_number": 7
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "Classic French ratatouille with eggplant, zucchini, bell peppers, and tomatoes. Can be served warm or at room temperature, suitable for vegan diets.",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Soups and Salads_1.pdf",
+      "refined_text": "Hearty red lentil soup with carrots, celery, and spinach, seasoned with cumin and coriander. A naturally gluten-free and vegan option.",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Aromatic vegetable tagine with a blend of Moroccan spices, chickpeas, and various seasonal vegetables. Serve with couscous or quinoa for a complete meal.",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "Creamy mushroom risotto made with Arborio rice, wild mushrooms, and vegetable broth. Ensure vegan by using plant-based butter and nutritional yeast instead of cheese.",
+      "page_number": 5
+    }
+  ]
+}
+
