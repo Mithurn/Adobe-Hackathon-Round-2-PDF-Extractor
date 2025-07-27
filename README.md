@@ -15,6 +15,48 @@ This repository contains solutions for both Round 1A and Round 1B of the Adobe �
 
 ---
 
+# How to Test Both Round 1A and 1B
+
+This repository contains solutions for both Round 1A (PDF Structure Extractor) and Round 1B (Intelligent Document Analyst System) of the Adobe “Connecting the Dots” Hackathon.
+
+## Round 1A: PDF Structure Extractor
+
+1. **Build the Docker Image**
+   ```sh
+   cd round_1a
+   docker build --platform linux/amd64 -t round1a-extractor:latest .
+   ```
+2. **Prepare Input/Output Folders**
+   - Place your PDFs in `round_1a/input/`
+   - Ensure `round_1a/output/` exists (will be created if not)
+3. **Run the Container**
+   ```sh
+   docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" --network none round1a-extractor:latest
+   ```
+4. **Check the Output**
+   - Each PDF in `input/` will produce a corresponding `.json` in `output/`.
+
+## Round 1B: Intelligent Document Analyst System
+
+1. **Build the Docker Image**
+   ```sh
+   cd round_1b
+   docker build --platform linux/amd64 -t round1b-analyst:latest .
+   ```
+2. **Prepare Input/Output Folders**
+   - Place your `challenge1b_input.json` and a `PDFs/` folder with your PDFs in `round_1b/input/`
+   - Ensure `round_1b/output/` exists (will be created if not)
+3. **Run the Container**
+   ```sh
+   docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" round1b-analyst:latest
+   ```
+4. **Check the Output**
+   - The output JSON (e.g., `challenge1b_output.json`) will be in `output/`.
+
+For more details, see the `README.md` files in each round's subfolder.
+
+---
+
 ## Round 1A: PDF Structure Extractor
 
 ### Objective

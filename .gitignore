@@ -1,35 +1,37 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
 
-# OS files
+# macOS
 .DS_Store
-Thumbs.db
 
-# Output and input folders
+# VSCode/IDE
+.vscode/
+*.swp
+
+# Output and input (except demo PDFs)
 round_1a/output/
-round_1a/output demo adobe/
 round_1a/input/
-round_1a/adobe demo files/
-
-# PDF and test artifacts
-round_1a/*.pdf
-round_1a/*.zip
-round_1a/*.json
-
-# Git internals in subfolders
-round_1a/.git/
-
-# Vercel and deployment configs
+round_1a/output demo adobe/
+round_1a_reference/
+round_1b_reference/
+round_1a/debug_title.py
+round_1a/How to Use Adobe PDF Embed API.zip
+round_1a/PDF Structure Extractor with Adobe PDF Embed API.md
+round_1a/test_sample.*
+round_1a/testing for round 1A.pdf
 round_1a/vercel.json
+round_1a/6874faecd848a_Adobe_India_Hackathon_-_Challenge_Doc 2.pdf
+round_1a/output/testing for round 1A.json
+round_1a/output/test_sample.json
+round_1a/output/6874faecd848a_Adobe_India_Hackathon_-_Challenge_Doc 2.json
 
-# Ignore outputs in round-1b if present
-round-1b/output/
-round-1b/test_output/
+# --- Round 1B ignores ---
+round_1b/output/dummy_output.json
+round_1b/data/
+round_1b/__pycache__/
+round_1b/*.pyc
+round_1b/.DS_Store
+round_1b/get-docker.sh
 
-# Ignore data and test input in round-1b
-round-1b/data/
-round-1b/test_input/
 
-# Ignore any .DS_Store or similar in all subfolders
-**/.DS_Store
